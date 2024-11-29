@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Outfit", sans-serif;
+}
+body {
+  width: 100%;
+  background-color: #0d192b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10rem 0;
+}
+main {
+  width: 25%;
+  background-color: hsl(216, 50%, 16%);
+  padding: 2rem;
+  border-radius: 1.3rem;
+}
+main .nft {
+  width: 100%;
+  align-items: center;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+}
+main .content .text {
+  color: #8cacd9;
+  font-size: 25px;
+  font-weight: 300;
+  margin-bottom: 1rem;
+}
+main .info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main .info div {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+main .info span {
+  font-size: 18px;
+}
+main .info .days {
+  color: #8cacd9;
+}
+main .info .eth {
+  color: #00fff7;
+}
+main .linha {
+  margin: 20px 0;
+  height: 0.5px;
+  max-width: 100%;
+  background-color: #8cacd946;
+}
+main .creation {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+main .text1 {
+  display: flex;
+  color: #8cacd9;
+  font-size: 18px;
+  gap: 5px;
+}
+main .text1 span {
+  color: #ffff;
+  transition: 1s;
+}
+main .text1 span:hover {
+  color: #00fff7;
+  cursor: pointer;
+}
+main .creation img {
+  width: 10%;
+  border: solid;
+  padding: 0;
+  border-color: #ffffff;
+  border-radius: 100%;
+  border-width: 1px;
+}
+h1 {
+  color: #ffffff;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  transition: 1s;
+  width: fit-content;
+}
+h1:hover {
+  color: #00fff7;
+  cursor: pointer;
+}
